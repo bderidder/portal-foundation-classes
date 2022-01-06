@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE service PUBLIC
+	"-//PFC/PFC Service Configuration DTD 1.0//EN"
+	"http://pfc.sourceforge.net/service-configuration-1.0.dtd">
+
+<service>
+
+    <name>Resource</name>
+
+    <controller>portal.rt.services.resource.ResourceServiceController</controller>
+
+    <interfaces>
+        <interface>portal.services.resource.IResourceService</interface>
+    </interfaces>
+
+    <dependencies>
+        <dependency>portal.services.registry.IRegistry</dependency>
+    </dependencies>
+
+</service>

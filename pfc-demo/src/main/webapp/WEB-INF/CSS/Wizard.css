@@ -1,0 +1,31 @@
+.WizardTable
+{
+}
+
+.WizardTitleCell
+{
+	border: 1px solid #CCCCCC;
+	padding: 3px;
+	background: rgb(236,236,242);
+	vertical-align: middle;
+}
+
+.WizardTitleLabel
+{
+	font-weight: bold;
+}
+
+.WizardPageCell
+{
+	margin: 5px;
+}
+
+.WizardButtonSeparator
+{
+	color: #C0C0C0;
+}
+
+.WizardButtonTable
+{
+	cellSpacing: 3px;
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE service PUBLIC
+	"-//PFC/PFC Registry Configuration DTD 1.0//EN"
+	"http://pfc.sourceforge.net/registry-configuration-1.0.dtd">
+
+<registry>
+	<registry-key>
+		<name>portal.core.engine.tempdir</name>
+		<type>String</type>
+		<value>/tmp</value>
+	</registry-key>
+	<registry-key>
+		<name>portal.core.engine.renderer.redirectAfterPost</name>
+		<type>Boolean</type>
+		<value>true</value>
+	</registry-key>
+
+	<registry-key>
+		<name>portal.debug.engine.sessionSize</name>
+		<type>Boolean</type>
+		<value>false</value>
+	</registry-key>
+
+	<registry-key>
+		<name>portal.core.engine.heartbeatRefresh</name>
+		<type>Integer</type>
+		<value>500</value>
+	</registry-key>
+	<registry-key>
+		<name>portal.core.engine.maxIdleTime</name>
+		<type>Long</type>
+		<value>1000</value>
+	</registry-key>
+
+	<registry-key>
+		<name>portal.security.loginRequired</name>
+		<type>String</type>
+		<value>false</value>
+	</registry-key>
+
+	<registry-key>
+		<name>portal.application</name>
+		<type>String</type>
+		<value>portal.demo.DemoPortal</value>
+	</registry-key>
+	<registry-key>
+		<name>portal.application.DesktopTemplate</name>
+		<type>String</type>
+		<value>portal/demo/DemoPortalDesktop.ftl</value>
+	</registry-key>
+</registry>

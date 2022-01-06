@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE service PUBLIC 
+	"-//PFC/PFC Service Configuration DTD 1.0//EN"
+	"http://pfc.sourceforge.net/service-configuration-1.0.dtd">
+
+<service>
+
+	<name>Registry</name>
+
+	<controller>portal.rt.services.registry.RegistryController</controller>
+	
+	<interfaces>
+		<interface>portal.services.registry.IRegistry</interface>
+	</interfaces>
+
+	<attribute>
+		<name>storage.filename</name>
+		<value>/path/to/registry/file.xml</value>
+	</attribute>
+	
+	<dependencies/>
+
+</service>

@@ -1,0 +1,27 @@
+.TextInputNormal
+{
+}
+
+.TextInputError
+{
+	background: rgb(250,150,150);
+}
+
+.TextAreaNormal
+{
+}
+
+.TextAreaError
+{
+	background: rgb(250,150,150);
+}
+
+.CheckboxLabel
+{
+	cursor: default;
+}
+
+.RadioButtonLabel
+{
+	cursor: default;
+}

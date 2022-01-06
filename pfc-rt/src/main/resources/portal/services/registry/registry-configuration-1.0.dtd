@@ -1,0 +1,17 @@
+<!-- PFC Registry file-based configuration document.
+
+<!DOCTYPE service PUBLIC 
+	"-//PFC/PFC Service Configuration DTD 1.0//EN"
+	"http://pfc.sourceforge.net/registry-configuration-1.0.dtd">
+
+An instance of this document contains the data stored in the registry
+
+-->
+
+<!ELEMENT registry (registry-key*)>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT value (#PCDATA)>
+
+<!ELEMENT registry-key (name, type, value)>

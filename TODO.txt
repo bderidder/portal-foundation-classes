@@ -1,0 +1,32 @@
+Version 2.0
+===========
+
+Create a smaller/leaner core
+- Move as much as possible out of "PFC Core"
+- SystemDesktop and such?
+
+Notion of "page" in PFC
+- Add a notion of Page to PFC
+- Replacement of GraphicsDevice?
+
+Version 2.1
+===========
+
+Caching in Resource Service
+- Subsequent calls for the same resource should return the same Resource object
+  if the underlying data hasn't changed
+- When implemented, the ResourceService can be used with FreeMarker
+
+Configuration overhaul
+- Too much XML files
+- Convention over configuration
+- Annotations over XML configuration
+
+Redesign Registry
+- Different back-ends supported (file, file/folder, databases, LDAP ...)
+
+Version 2.2
+===========
+
+Support for jQuery
+Support for AJAX

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE service PUBLIC
+	"-//PFC/PFC Service Configuration DTD 1.0//EN"
+	"http://pfc.sourceforge.net/service-configuration-1.0.dtd">
+
+<service>
+
+	<name>FreeMarker Service</name>
+
+	<controller>portal.rt.services.freemarker.FreeMarkerServiceController</controller>
+
+	<interfaces>
+		<interface>portal.services.freemarker.IFreeMarkerService</interface>
+	</interfaces>
+
+	<dependencies>
+		<dependency>portal.services.registry.IRegistry</dependency>
+		<dependency>portal.services.resource.IResourceService</dependency>
+	</dependencies>
+
+</service>

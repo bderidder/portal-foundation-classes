@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE service PUBLIC
+	"-//PFC/PFC Service Configuration DTD 1.0//EN"
+	"http://pfc.sourceforge.net/service-configuration-1.0.dtd">
+
+<service>
+
+    <name>Monitor</name>
+
+    <controller>portal.rt.services.monitor.MonitorServiceController</controller>
+
+    <interfaces>
+        <interface>portal.services.monitor.IMonitorService</interface>
+    </interfaces>
+
+    <attribute>
+        <name>monitor.namespace</name>
+        <value>put.your.namespace.here</value>
+    </attribute>
+
+    <dependencies/>
+
+</service>

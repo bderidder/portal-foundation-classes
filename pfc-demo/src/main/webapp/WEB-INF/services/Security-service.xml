@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE service PUBLIC
+	"-//PFC/PFC Service Configuration DTD 1.0//EN"
+	"http://pfc.sourceforge.net/service-configuration-1.0.dtd">
+
+<service>
+
+    <name>Security</name>
+
+    <controller>portal.rt.security.simple.SimpleSecurityServiceController</controller>
+
+    <interfaces>
+        <interface>portal.security.ISecurityService</interface>
+    </interfaces>
+
+    <dependencies>
+        <dependency>portal.services.registry.IRegistry</dependency>
+    </dependencies>
+
+</service>
