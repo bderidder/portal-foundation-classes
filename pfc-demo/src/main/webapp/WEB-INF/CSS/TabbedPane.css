@@ -1,0 +1,46 @@
+.TabbedPane
+{
+}
+
+.SelectedTab
+{
+	background: rgb(193,198,201);
+	border-top: solid rgb(110,115,118) 1px;
+	border-left: solid rgb(110,115,118) 1px;
+	border-right: solid rgb(110,115,118) 1px;
+	padding: 5px;
+}
+
+.NormalTab
+{
+	background: rgb(226,230,231);
+	border-top: solid rgb(110,115,118) 1px;
+	border-left: solid rgb(110,115,118) 1px;
+	border-right: solid rgb(110,115,118) 1px;
+	padding: 5px;
+}
+
+.TabSelector
+{
+	font-family: Verdana;
+	font-size: 12px;
+	color: black;
+	padding: 6px;
+}
+
+.TabTitleError
+{
+	color: red;
+}
+
+A.TabSelector:link{text-decoration: none; font-size: 12px; color: black; }
+A.TabSelector:visited{text-decoration: none; font-size: 12px; color: black; }
+A.TabSelector:active{text-decoration: none; font-size: 12px; color: black; }
+A.TabSelector:hover {text-decoration: none; font-size: 12px; color: black; }
+
+.TabbedContent
+{
+	padding: 0px;
+	padding-top: 8px;
+	border: solid rgb(110,115,118) 1px;
+}

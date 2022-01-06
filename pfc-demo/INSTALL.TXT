@@ -1,0 +1,20 @@
+ANT project build properties
+----------------------------
+
+Copy the file sample-ant-user.props to your home folder. Rename it to ".ant-user.props".
+Edit the file and adjust any paths as required. Windows users should write paths like "C:\myfolder\anotherfolder\".
+
+Windows users: try to avoid spaces anywhere in the path !
+
+TIP: if you want to deviate from the above, edit the following line in the build.xml file:
+
+<property file="${user.home}/.ant-user.props" />
+
+
+Registry File Location
+----------------------
+
+Copy the file Demo-registry.xml to a location somewhere on your computer or leave it here. Note the path where the file
+is located and and edit the file WEB-INF/services/Registry-service.xml accordingly.
+
+Windows users: write paths like C:\\folder\\Registries\\Demo-registry.xml

@@ -1,0 +1,33 @@
+P.DemoChooserShortName
+{
+	margin-left: 5px;
+	font-weight: bold;
+}
+
+P.DemoChooserDescription
+{
+	margin-left: 25px;
+	font-style: italic;
+	margin-bottom: 5px;
+}
+
+.DemoChooserEvenRow
+{
+	background-color: #F5F5F5;
+	cursor: default;
+	padding: 5px;
+}
+
+.DemoChooserOddRow
+{
+	background-color: #E5E5E5;
+	cursor: default;
+	padding: 5px;
+}
+
+.DemoChooserEntryHoover
+{
+	background-color: #FFCC99;
+	cursor: default;
+	padding: 5px;
+}

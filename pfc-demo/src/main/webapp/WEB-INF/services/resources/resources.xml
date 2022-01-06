@@ -1,0 +1,12 @@
+<resources>
+
+    <resource>
+        <class>portal.rt.services.resource.FileResourceLoader</class>
+        <property name="basepath">/Users/bavo/NetBeansProjects/PFC-HEAD/trunk/pfc-demo/src/main/resources</property>
+    </resource>
+
+    <resource>
+        <class>portal.rt.services.resource.ClasspathResourceLoader</class>
+    </resource>
+
+</resources>

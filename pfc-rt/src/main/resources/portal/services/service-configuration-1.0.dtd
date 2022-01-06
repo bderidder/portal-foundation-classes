@@ -1,0 +1,25 @@
+<!-- PFC Service file-based configuration document.
+
+<!DOCTYPE service PUBLIC 
+	"-//PFC/PFC Service Configuration DTD 1.0//EN"
+	"http://pfc.sourceforge.net/service-configuration-1.0.dtd">
+
+An instance of this document contains the information required to 
+instantiate and manage a service.
+
+-->
+
+<!ELEMENT service (name, controller, interfaces, attribute*, dependencies)>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT value (#PCDATA)>
+
+<!ELEMENT controller (#PCDATA)>
+
+<!ELEMENT interfaces (interface*)>
+<!ELEMENT interface (#PCDATA)>
+
+<!ELEMENT attribute (name, value)>
+
+<!ELEMENT dependencies (dependency*)>
+<!ELEMENT dependency (#PCDATA)>
